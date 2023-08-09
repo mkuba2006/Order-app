@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-header{
+    background-color: #322653;
+    width: 100vw;
+}
+.main-header h1{
+    padding: 20px 32px;
+}
