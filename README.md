@@ -1,1 +1,1 @@
-#New React app
+New React app
