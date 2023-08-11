@@ -1,0 +1,88 @@
+.ul{
+    width: 50%;
+    min-width: 600px;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.summary{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: rgb(53, 52, 52);
+    width: max-content;
+    max-width: 650px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    margin-bottom: 40px;
+    padding: 20px;
+    border: none;
+    border-radius: 12px;
+}
+.summary h2 , .summary p{
+    text-align: center;
+}
+.item{
+    background-color: white;
+    border-bottom: 1px solid rgb(214, 213, 213);
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px 0 ;
+}
+.name{
+    font-weight: 900;
+    font-size: 23px;
+    margin: 0;
+}
+.description{
+    font-size: 16px;
+    margin: 0;
+}
+.price{
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: black;
+}
+form div{
+    display: flex;
+    gap: 10px;
+}
+form div label{
+    font-weight: 900;
+}
+  
+.form button {
+    font: inherit;
+    cursor: pointer;
+    background-color: #8a2b06;
+    border: 1px solid #8a2b06;
+    color: white;
+    padding: 0.25rem 2rem;
+    border-radius: 20px;
+    font-weight: bold;
+}
+  
+.form button:hover,
+.form button:active {
+    background-color: #641e03;
+    border-color: #641e03;
+}
