@@ -27,6 +27,12 @@ const meals = [
     description: 'Healthy...and green...',
     price: 18.99,
   },
+  {
+    id: 'm5',
+    name: 'Pierogi',
+    description: 'Healthy...and yummy...',
+    price: 12.99,
+  },
 ];
 
 function Meals() {
